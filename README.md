@@ -19,7 +19,9 @@ Place all .cs Files in your desired Utilities Folder and rename the namespaces o
 
   using (IFtpHandler ftpHandler = FtpHelper.GetInstance(ftpConfiguration))
   {
-    ftpHandler.[YourDesiredFtpAction]
+     // ftpHandler.DoesFileExist("relativeFilePath");
+     // ftpHandler.ftpHandler.UploadFile("relativeFilePath", data);
+     // etc..
   }
 
 ```
